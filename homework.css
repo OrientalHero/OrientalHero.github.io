@@ -1,0 +1,124 @@
+ul{
+    font-size: 50px;
+    display: block;
+    margin: 0;
+    padding: 0;
+    background-color: darkslategrey;
+}
+.first{
+    text-align: left;
+     border-left: solid 10px deeppink;
+    background-color: darkslategrey;
+    padding: 5px 5px;
+    display:inline-block;
+}
+.second{
+    background-color: grey;
+    padding: 0;
+    margin: 0;
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 2px 2px 0px rgba(1,1,1,1);
+}
+.first:hover{
+    background-color: red;
+    display: inline-block;
+    box-shadow: black;
+    cursor: hand;
+}
+.first:hover .second{
+    margin: 10px 0px 0px 0px;
+    padding: 10px 0px 0px 0px;
+    display: block;
+    background-color: aliceblue;
+}
+.second:hover{
+    background-color: #f1f1f1
+}
+.all{
+    position: fixed;
+}
+h1{
+    font-family: Verdana;
+    top: 80%;
+    position: absolute;
+}
+p{
+    font-family: Verdana;
+    position: absolute;
+    margin: 300px 320px;
+}
+button {
+    margin: 300px 0px 0px 0px;
+position: static;
+}
+html,body {
+height: 100%;
+}
+body{font-color: #821;
+    background: -webkit-radial-gradient(cornflowerblue, #555);
+    background: radial-gradient(lightblue, #222);
+}
+a:hover{
+    font-color: #730;;
+    position: static;
+    text-decoration: none;
+}
+a:visited{
+    font-color: red;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+
+h2{
+    font-color: #821;
+    bottom: 0;
+    font-family: Verdana;
+    position: fixed;
+}
+.own{
+    margin: 150px 0px 0px 0px;
+}
+.home{
+    text-align: left;
+    display: inline-block;
+}
+li{
+    float: left;
+}
+.notes{
+    margin: 200px 150px 0px 300px;
+    position: absolute;
+}
+.av{
+    margin: 100px 0px 0px 0px;
+    position: absolute;
+
+}
+.wr{
+    margin: 500px 0px 0px 0px;
+    position: absolute;
+}
+.war{
+    position: absolute;
+    margin: 500px 150px 0px 300px;
+}
+.third{
+position: absolute;
+    margin: 900px 0px 0px 0px;
+}
+.text3{
+    position: absolute;
+    margin: 900px 150px 0px 300px;
+}
+.img4{
+    position: absolute;
+    margin: 1400px 0px 0px 0px;
+}
+.text4{
+    position: absolute;
+    margin: 1400px 150px 0px 300px;
+}
